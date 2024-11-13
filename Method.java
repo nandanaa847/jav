@@ -2,9 +2,9 @@ public class Method{
 	
 	public static void main(String[] args){
 
-	Employee("Poorna");
-	Employee(50000);
-	Employee(47.55f);
+	employee("Poorna");
+	employee(50000);
+	employee(47.55f);
 
 	inveniofest(20,"Saree");
 	inveniofest("western",21);
@@ -16,13 +16,13 @@ public class Method{
 
 	}
 
-	public static void Employee(String name){
+	public static void employee(String name){
 	System.out.println("Emoloyee name is:" +name);
 }
-    public static void Employee(int salary){
+    public static void employee(int salary){
 	System.out.println("Emoloyee salary is:" +salary);
 }
-    public static void Employee(float weight){
+    public static void employee(float weight){
 	System.out.println("Emoloyee weight is:" +weight);
 }
     public static void inveniofest(int date , String dresscode){
