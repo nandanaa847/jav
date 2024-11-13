@@ -29,7 +29,6 @@ public class Server{
 	System.out.println(initialofstudents[9]);
 
 	System.out.println(option[0]);
-	System.out.println(option[0]);
 	System.out.println(option[1]);
 	System.out.println(option[2]);
 	System.out.println(option[3]);
