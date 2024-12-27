@@ -36,3 +36,24 @@ alter table employeedetails add column manager_ID char(7);
 alter table employeedetails add column manager_name varchar(20);
 
 desc employeedetails;
+
+use watch;
+
+alter table watchinformation drop column order_ID;
+alter table watchinformation drop column ratings;
+
+desc watchinformation;
+
+use music;
+
+alter table songdetails drop column file_format;
+alter table songdetails drop column file_size;
+
+desc songdetails;
+
+use employee;
+
+alter table employeedetails drop column email;
+alter table employeedetails drop column salary_date;
+
+desc employeedetails;
