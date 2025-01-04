@@ -18,6 +18,12 @@ use watch;
 
 rename table watchdetails to watchinformation;
 
+
+
+use music;
+
+rename table musicdetils to songdetails;
+
 create database bankaccount;
 
 use bankaccount;
@@ -34,10 +40,6 @@ account_ID char(10),
 transaction_limit int);
 
 desc accountdetails;
-
-use music;
-
-rename table musicdetils to songdetails;
 
 use bankaccount;
 
