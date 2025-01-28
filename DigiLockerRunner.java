@@ -12,7 +12,7 @@ public static void main(String[] args) {
 	
 	digilockerdto.setDocID(1342);
 	digilockerdto.setDocname("thiss");
-	digilockerdto.setDocname("pdff");
+	digilockerdto.setDoctype("pdff");
 	digilockerdto.setLockerID(1234);
 	digilockerdto.setLockername("npch");
 	digilockerdto.setLockerstatus("locked");
