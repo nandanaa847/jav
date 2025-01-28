@@ -24,6 +24,7 @@ public static void main(String[] args) {
 	moviedto.setReview("Goodd");
 	moviedto.setTicketprice(250);
 	moviedto.setTotalcollection(365365638);
+	moviedto.setMoviename("googly");
 	
 	System.out.println(moviedto);
 	
